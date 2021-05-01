@@ -1,0 +1,138 @@
+<html>
+	<head>
+	<title>Aman Kushwaha</title>
+	<style>
+	body{
+	background-image: url('milan.png');
+	color:white;
+    
+	}
+	img{
+	width:450px;
+	height:400px;
+	border-radius:30%;
+	position:absolute;
+	top:110px;
+	left:900px;
+	}
+	#one{
+	position:absolute;
+	font-size:100px;
+        
+	top:40px;
+	left:100px;
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	}
+	#two{
+	font-size:50px;
+	font-family: Brush Script MT;
+	position:absolute;
+	top:220px;
+	left:200px;
+	}
+	#three{
+	
+	font-size:25px;
+	position:absolute;
+	left:720px;
+	width:1000px;
+	margin:0 auto;
+	padding:5px;
+	margin:5px;
+	
+	font-family:Jazz LET, fantasy;
+	
+	}
+	.four{
+	float:left;
+    
+	}
+	#home{
+        font-size: 150%;
+	padding:5px;
+	margin:5px;
+        position:absolute;
+	top:15px;
+	left:100px;
+        
+	}
+	#contact{
+        font-size: 150%;
+	padding:5px;
+	margin:5px;
+           position:absolute;
+	top:15px;
+	left:250px;
+	}
+	#gallery{
+        font-size: 150%;
+	padding:5px;
+	margin:5px;
+           position:absolute;
+	top:15px;
+	left:450px;
+	}
+	#events{
+	padding:5px;
+	margin:5px;
+	}
+	#clients{
+	padding:5px;
+	margin:5px;
+	}
+	a{
+	text-decoration:none;
+	}
+	a:hover{
+	text-decoration:underline;
+	color:red;
+	}
+	</style>
+	</head>
+    <script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+        </script>
+	<body>
+	<img src="new1.jpg">
+	<div id="one">
+	<p >Aman Kushwaha</p>
+	</div>
+	
+	<div id="three">
+	<div class="four"id="home"><a href="profile.html">HOME</a></div>
+	<div class="four" id="contact"><a href="contact.html">CONTACT</a></div>
+	<div class="four" id="gallery"><a href="gallery.html">GALLERY</a></div>
+	
+	</div>
+	<div id="two">
+	
+        <p>A second year undergraduate student <br>under information technology, inspired<br> by the modern advancement.<span id="dots">Greetings! i am Aman Kushwaha, studying at Vellore Institute Of Technology, currently in 2 year studying Information Technology. In love with technological advancement and its use to help people in this desperate time. Currently mastering Flutter.
+Other hobbies include weight training, animal adorer and a sports enthusiast!</span><span id="more"></span></p>
+       
+<button onclick="myFunction()" id="myBtn">Read more</button>
+         </div>
+	</div>
+	
+	
+	
+	
+		
+	
+
+	
+	</body>
+</html>
